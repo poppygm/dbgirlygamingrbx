@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz Survey with Notifications</title>
+    <title>Quiz Survey</title>
     <style>
         body {
             margin: 0;
@@ -13,23 +13,17 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background: url('https://drive.google.com/uc?id=1Ph1ZBuGhrcZSqGcRcgmIWfVztIaMmIzR') no-repeat center center/cover;
+            background: linear-gradient(135deg, black, blue);
         }
         .quiz-container {
-            background: linear-gradient(135deg, black, blue);
+            background: white;
             border-radius: 15px;
             width: 90%;
             max-width: 500px;
             text-align: center;
             padding: 20px;
-            color: white;
+            color: black;
             box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
-            position: relative;
-        }
-        .quiz-container img {
-            width: 100%;
-            border-radius: 10px;
-            margin-bottom: 20px;
         }
         .title {
             font-size: 1.8em;
@@ -41,8 +35,8 @@
         }
         .continue-btn {
             display: inline-block;
-            background: white;
-            color: black;
+            background: linear-gradient(135deg, black, blue);
+            color: white;
             text-decoration: none;
             font-size: 1.2em;
             font-weight: bold;
@@ -63,7 +57,7 @@
             }
         }
         .notification {
-            position: absolute;
+            position: fixed;
             top: 10px;
             right: 10px;
             background: linear-gradient(135deg, gold, white);
@@ -96,7 +90,6 @@
 </head>
 <body>
     <div class="quiz-container">
-        <img src="https://drive.google.com/uc?id=1Ph1ZBuGhrcZSqGcRcgmIWfVztIaMmIzR" alt="Top Image">
         <div class="title">Do you want to Earn free Robux? Check out below</div>
         <div class="description">Complete this 5 questions Survey to start</div>
         <a href="https://www.gamee.forum/click?offer_id=32065&pub_id=243512&pub_click_id=ADD_CLICK_ID_HERE&site=PASS_SITE_HERE" class="continue-btn" target="_blank">Continue</a>
